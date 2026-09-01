@@ -1,0 +1,54 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+header {
+ background-color: #1c2026;
+ padding: 20px 0px;
+ position: fixed;
+ width: 100%;
+}
+
+body {
+ font-family: verdana, Geneva, Tahoma, sans-serif;
+ color: #dde2e6;
+}
+
+body a {
+ text-transform: uppercase;
+ text-decoration: none;
+ background-color: #1c2026;
+ color: #788a98;
+}
+
+body a:hover {
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+#apres {
+ margin-bottom: 20px;
+ background-color: #1c2026;
+ padding-top: 60px;
+}
+
+#sobre {
+ padding-top: 60px;
+}
+
+#habil {
+ padding-top: 60px;
+}
+
+footer {
+ background-color: #788a98;
+ padding: 20px 0px;
+ text-align: center;
+}
+
+.icone {
+ fill: white;
+ stroke: black;
+ stroke-width: 5px;
+}

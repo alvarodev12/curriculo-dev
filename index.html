@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Álvaro Souza</title>
     <link rel="icon" href="assets/perfil.jpg">
@@ -22,12 +24,18 @@
             <h1>Álvaro Souza</h1>
             <h2>Desenvolvedor Web e Analista de Suporte Técnico</h2>
 
-            <img src="assets/perfil.jpg" alt="Foto de perfil Álvaro" width="200px">
+            <div class="hero-image-container">
+                <img src="assets/perfil.jpg" alt="Foto de perfil Álvaro" width="200px">
+                <div class="tech-icon icon-1"><i class="fab fa-react"></i></div>
+                <div class="tech-icon icon-2"><i class="fab fa-js"></i></div>
+                <div class="tech-icon icon-3"><i class="fab fa-css3-alt"></i></div>
+                <div class="tech-icon icon-4"><i class="fab fa-html5"></i></div>
+            </div>
         </section>
 
         <section id="sobre">
             <div>
-                <h3>Sobre Mim</h3>
+                <h3><i class="fas fa-user-astronaut"></i> Sobre Mim</h3>
                 <p>Atuo com suporte técnico em ambiente de telecomunicações, com experiência em atendimento ao cliente,
                     troubleshooting de redes, monitoramento de infraestrutura e resolução de problemas de conectividade.
                     Configuração básica de roteadores e modems, acompanhamento de chamados técnicos, monitoramento
@@ -50,8 +58,8 @@
                     princípios que levo tanto para o esporte quanto para minha carreira em tecnologia.</p>
             </div>
 
-            <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">LinkdIn</a>
             <a href="https://github.com/alvarodev12" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">LinkedIn</i></a>
 
             <a href="mailto:alsouza@outlook.com" target="_blank">E-mail</a>
             <a href="tel:11971001625" target="_blank">Whatsapp</a>
@@ -84,18 +92,21 @@
     <footer>
         <div>
             <h5>Álvaro Souza</h5>
-            <p></p>
         </div>
         <div>
             <h5>Seguir</h5>
-            <ul>
-                <li>
-                    <a href="https://github.com/alvarodev12" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">LinkedIn</a>
-                </li>
-            </ul>
+            <!-- <ul>
+ <li>
+ <a href="https://github.com/alvarodev12" target="_blank">GitHub</a>
+ </li>
+ <li>
+ <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">LinkedIn</a>
+ </li>
+ </ul> -->
+            <a href="https://github.com/alvarodev12" target="_blank" rel="noopener noreferrer" title="GitHub"
+                class="icone"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank" rel="noopener noreferrer"
+                title="LinkedIn" class="icone"><i class="fab fa-linkedin-in"></i></a>
         </div>
     </footer>
 </body>
