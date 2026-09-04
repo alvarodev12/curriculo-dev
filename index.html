@@ -13,11 +13,13 @@
 
 <body>
     <header>
-        <a href="#inicio" class="logo">ÁS</a>
-        <a href="#apres">Inicio</a>
-        <a href="#sobre">Sobre Mim</a>
-        <a href="#habil">Habilidades</a>
-        <a href="#contato">Contato</a>
+        <!-- <a href="#inicio" class="logo">ÁS</a> -->
+        <nav>
+            <a href="#apres">Inicio</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#habil">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
     <main>
@@ -26,66 +28,78 @@
             <h2>Desenvolvedor Web e Analista de Suporte Técnico</h2>
 
             <div class="perfil-image">
-                <img src="assets/perfil.jpg" alt="Foto de perfil Álvaro" class="perfil-image" width="200px">
-                <div class="tech-icon icon-1"><i class="fab fa-react"></i></div>
+                <img src="assets/perfil.jpg" alt="Foto de perfil Álvaro" class="perfil-image">
+                <!-- <div class="tech-icon icon-1"><i class="fab fa-react"></i></div>
                 <div class="tech-icon icon-2"><i class="fab fa-js"></i></div>
                 <div class="tech-icon icon-3"><i class="fab fa-css3-alt"></i></div>
-                <div class="tech-icon icon-4"><i class="fab fa-html5"></i></div>
+                <div class="tech-icon icon-4"><i class="fab fa-html5"></i></div> -->
             </div>
         </section>
 
         <section id="sobre">
             <div>
-                <h3><i class="fas fa-user-astronaut"></i> Sobre Mim</h3>
+                <h3>Sobre Mim</h3>
                 <p>Atuo com suporte técnico em ambiente de telecomunicações, com experiência em atendimento ao cliente,
                     troubleshooting de redes, monitoramento de infraestrutura e resolução de problemas de conectividade.
                     Configuração básica de roteadores e modems, acompanhamento de chamados técnicos, monitoramento
                     utilizando Zabbix e Grafana, além de análises de CTO para apoio em demandas de expansão e
-                    infraestrutura.<br> <br>Curso Análise e Desenv. de Sistemas pela FAM e estou em constante
-                    aprimoramento nas áreas de Redes, Inteligência Artificial e Desenvolvimento Front-End. Pela formação
-                    DevClub, desenvolvo projetos práticos utilizando HTML, CSS, JavaScript, React, TypeScript,
-                    Git/GitHub,
-                    SQL, PostgreSQL fortalecendo minhas habilidades técnicas por meio de estudos contínuos e
-                    experiências
-                    reais de
-                    desenvolvimento.<br> <br> Minha trajetória profissional contribuiu para o desenvolvimento de
-                    competências como liderança, disciplina, responsabilidade e pensamento analítico, que aplico
-                    diariamente
-                    na área de tecnologia. Além da paixão por desenvolvimento e inovação, tenho os esportes de alta
-                    performance como parte do meu estilo de vida, praticando basquete, corrida e musculação. Também
-                    valorizo
-                    os momentos em família, que considero fundamentais para o equilíbrio pessoal e profissional. Essas
-                    experiências fortalecem habilidades como trabalho em equipe, foco, resiliência e evolução contínua,
-                    princípios que levo tanto para o esporte quanto para minha carreira em tecnologia.</p>
+                    infraestrutura.<br>
+                </p>
             </div>
 
-            <a href="https://github.com/alvarodev12" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">LinkedIn</i></a>
+            <div class="iconesContainer">
+                <div class="iconesBloco">
+                    <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">
+                        <svg class="iconeLink">
+                            <use href="assets/linkedin.svg"></use>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/alvarodev12" target="_blank">
+                        <svg class="iconeLink">
+                            <use href="assets/github.svg"></use>
+                        </svg>
+                    </a>
+                </div>
 
-            <a href="mailto:alsouza@outlook.com" target="_blank">E-mail</a>
-            <a href="tel:11971001625" target="_blank">Whatsapp</a>
+                <div class="iconesBloco">
+                    <a href="tel:11971001625" target="_blank">
+                        <svg class="iconeLink">
+                            <use href="assets/whatsapp.svg"></use>
+                        </svg>
+                    </a>
+                    <a href="mailto:alsouza@outlook.com">
+                        <svg class="iconeLink">
+                            <use href="assets/email.svg"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </section>
 
         <section id="habil">
             <h3>Habilidades</h3>
-            <div>
-                <h4>Hard Skill</h4>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Soft Skill</h4>
-                <ul>
-                    <li>Liderança</li>
-                    <li>Analítico</li>
-                    <li>Trabalho em equipe</li>
-                    <li>Proatividade</li>
-                    <li>Resolução de Problemas</li>
-                </ul>
+
+            <div class="habilidadesContainer">
+                <div class="habilidadesBloco">
+                    <h4>Hard Skill</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+
+                <div class="habilidadesBloco">
+                    <h4>Soft Skill</h4>
+                    <ul>
+                        <li>Liderança</li>
+                        <li>Analítico</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Proatividade</li>
+                        <li>Resolução de Problemas</li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
@@ -95,19 +109,19 @@
             <h5>Álvaro Souza</h5>
         </div>
         <div>
-            <h5>Seguir</h5>
+            <h5>Entre em contato</h5>
             <ul>
                 <li>
                     <a href="https://github.com/alvarodev12" target="_blank">
                         <svg class="icone">
-                            <use href="assets/GitHubIco.svg"></use>
+                            <use href="assets/github.svg"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/-alvarosouza/" target="_blank">
                         <svg class="icone">
-                            <use href="assets/LinkedInIco.svg"></use>
+                            <use href="assets/linkedin.svg"></use>
                         </svg>
                     </a>
                 </li>
