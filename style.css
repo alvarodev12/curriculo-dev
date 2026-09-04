@@ -27,6 +27,69 @@ body a:hover {
     font-weight: bold;
 }
 
+.perfil-image {
+    position: relative;
+}
+
+.perfil-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 5px solid var(--cor-card);
+    box-shadow: 0 10px 30px var(--cor-sombra); */
+}
+
+.tech-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: var(--cor-card);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 1.8rem;
+    /* color: var(--cor-azul-bebe);
+    box-shadow: 0 4px 15px var(--cor-sombra);
+    animation: float 4s ease-in-out infinite; */
+}
+
+.icon-1 {
+    top: 0;
+    left: -30px;
+}
+
+.icon-2 {
+    top: 60%;
+    right: -30px;
+    animation-delay: 1s;
+}
+
+.icon-3 {
+    bottom: 0;
+    left: -10px;
+    animation-delay: 2s;
+}
+
+.icon-4 {
+    top: 20%;
+    right: -50px;
+    animation-delay: 3s;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
 #apres {
     margin-bottom: 20px;
     background-color: #1c2026;
